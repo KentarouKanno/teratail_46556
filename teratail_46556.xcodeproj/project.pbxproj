@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36475AA41D7A675D00E51CD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36475AA31D7A675D00E51CD6 /* AppDelegate.swift */; };
+		36475AA61D7A675D00E51CD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36475AA51D7A675D00E51CD6 /* ViewController.swift */; };
+		36475AA91D7A675D00E51CD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36475AA71D7A675D00E51CD6 /* Main.storyboard */; };
+		36475AAB1D7A675D00E51CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36475AAA1D7A675D00E51CD6 /* Assets.xcassets */; };
+		36475AAE1D7A675D00E51CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36475AAC1D7A675D00E51CD6 /* LaunchScreen.storyboard */; };
+		36475AB61D7A69AE00E51CD6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36475AB51D7A69AE00E51CD6 /* APIManager.swift */; };
+		36475AB81D7A69DC00E51CD6 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36475AB71D7A69DC00E51CD6 /* DataModel.swift */; };
+		9FAD889B88FB0C3DD549B4A3 /* Pods_teratail_46556.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D860A5E4A6B900D3553F3563 /* Pods_teratail_46556.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36475AA01D7A675D00E51CD6 /* teratail_46556.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teratail_46556.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36475AA31D7A675D00E51CD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36475AA51D7A675D00E51CD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36475AA81D7A675D00E51CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36475AAA1D7A675D00E51CD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36475AAD1D7A675D00E51CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36475AAF1D7A675D00E51CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36475AB51D7A69AE00E51CD6 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		36475AB71D7A69DC00E51CD6 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		9BB8A1011F9A13F502A2CA65 /* Pods-teratail_46556.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teratail_46556.release.xcconfig"; path = "Pods/Target Support Files/Pods-teratail_46556/Pods-teratail_46556.release.xcconfig"; sourceTree = "<group>"; };
+		D860A5E4A6B900D3553F3563 /* Pods_teratail_46556.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teratail_46556.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0121A39E1B5C3413A82B15D /* Pods-teratail_46556.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teratail_46556.debug.xcconfig"; path = "Pods/Target Support Files/Pods-teratail_46556/Pods-teratail_46556.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36475A9D1D7A675D00E51CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAD889B88FB0C3DD549B4A3 /* Pods_teratail_46556.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36475A971D7A675D00E51CD6 = {
+			isa = PBXGroup;
+			children = (
+				36475AA21D7A675D00E51CD6 /* teratail_56556 */,
+				36475AA11D7A675D00E51CD6 /* Products */,
+				7DD4F035585505E79C0C180D /* Pods */,
+				E8F212AF06F0CED1F0295750 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36475AA11D7A675D00E51CD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36475AA01D7A675D00E51CD6 /* teratail_46556.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36475AA21D7A675D00E51CD6 /* teratail_56556 */ = {
+			isa = PBXGroup;
+			children = (
+				36475AA31D7A675D00E51CD6 /* AppDelegate.swift */,
+				36475AA51D7A675D00E51CD6 /* ViewController.swift */,
+				36475AB71D7A69DC00E51CD6 /* DataModel.swift */,
+				36475AB51D7A69AE00E51CD6 /* APIManager.swift */,
+				36475AA71D7A675D00E51CD6 /* Main.storyboard */,
+				36475AAA1D7A675D00E51CD6 /* Assets.xcassets */,
+				36475AAC1D7A675D00E51CD6 /* LaunchScreen.storyboard */,
+				36475AAF1D7A675D00E51CD6 /* Info.plist */,
+			);
+			path = teratail_56556;
+			sourceTree = "<group>";
+		};
+		7DD4F035585505E79C0C180D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0121A39E1B5C3413A82B15D /* Pods-teratail_46556.debug.xcconfig */,
+				9BB8A1011F9A13F502A2CA65 /* Pods-teratail_46556.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8F212AF06F0CED1F0295750 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D860A5E4A6B900D3553F3563 /* Pods_teratail_46556.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36475A9F1D7A675D00E51CD6 /* teratail_46556 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36475AB21D7A675D00E51CD6 /* Build configuration list for PBXNativeTarget "teratail_46556" */;
+			buildPhases = (
+				84C7A96E83C32A510C729ADC /* Check Pods Manifest.lock */,
+				36475A9C1D7A675D00E51CD6 /* Sources */,
+				36475A9D1D7A675D00E51CD6 /* Frameworks */,
+				36475A9E1D7A675D00E51CD6 /* Resources */,
+				0B741D77574F21B0345B554B /* Embed Pods Frameworks */,
+				53CABF5DD1905D8AB030D1EB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = teratail_46556;
+			productName = teratail_56556;
+			productReference = 36475AA01D7A675D00E51CD6 /* teratail_46556.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36475A981D7A675D00E51CD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KentarOu;
+				TargetAttributes = {
+					36475A9F1D7A675D00E51CD6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 36475A9B1D7A675D00E51CD6 /* Build configuration list for PBXProject "teratail_46556" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36475A971D7A675D00E51CD6;
+			productRefGroup = 36475AA11D7A675D00E51CD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36475A9F1D7A675D00E51CD6 /* teratail_46556 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36475A9E1D7A675D00E51CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36475AAE1D7A675D00E51CD6 /* LaunchScreen.storyboard in Resources */,
+				36475AAB1D7A675D00E51CD6 /* Assets.xcassets in Resources */,
+				36475AA91D7A675D00E51CD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B741D77574F21B0345B554B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-teratail_46556/Pods-teratail_46556-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53CABF5DD1905D8AB030D1EB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-teratail_46556/Pods-teratail_46556-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84C7A96E83C32A510C729ADC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36475A9C1D7A675D00E51CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36475AB61D7A69AE00E51CD6 /* APIManager.swift in Sources */,
+				36475AB81D7A69DC00E51CD6 /* DataModel.swift in Sources */,
+				36475AA61D7A675D00E51CD6 /* ViewController.swift in Sources */,
+				36475AA41D7A675D00E51CD6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36475AA71D7A675D00E51CD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36475AA81D7A675D00E51CD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36475AAC1D7A675D00E51CD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36475AAD1D7A675D00E51CD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36475AB01D7A675D00E51CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36475AB11D7A675D00E51CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36475AB31D7A675D00E51CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0121A39E1B5C3413A82B15D /* Pods-teratail_46556.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = teratail_56556/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kentarou.teratail-56556";
+				PRODUCT_NAME = teratail_46556;
+			};
+			name = Debug;
+		};
+		36475AB41D7A675D00E51CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB8A1011F9A13F502A2CA65 /* Pods-teratail_46556.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = teratail_56556/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kentarou.teratail-56556";
+				PRODUCT_NAME = teratail_46556;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36475A9B1D7A675D00E51CD6 /* Build configuration list for PBXProject "teratail_46556" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36475AB01D7A675D00E51CD6 /* Debug */,
+				36475AB11D7A675D00E51CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36475AB21D7A675D00E51CD6 /* Build configuration list for PBXNativeTarget "teratail_46556" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36475AB31D7A675D00E51CD6 /* Debug */,
+				36475AB41D7A675D00E51CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36475A981D7A675D00E51CD6 /* Project object */;
+}
